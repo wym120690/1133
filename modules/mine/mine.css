@@ -1,0 +1,32 @@
+#mod-mine{width: 100%;font-size:0.1875rem;background-color: #efefef;}
+#mod-mine #header{width: 9.984375rem;height: 4.1875rem;background-color: #ffd600;clear: both;}
+ #mod-mine #header_top{padding-top: 0.609375rem;padding-left: 0.5rem;margin-bottom: 0.640625rem}
+ #mod-mine #header_top>img{float: left;margin-right: 0.4375rem;width: 1.84375rem;height: 1.859375rem;}
+ #mod-mine #header_top>div {float: left;}
+ #mod-mine #header_top>div p {font-size: 0.34375rem;font-weight: bold;color: #fff;margin-bottom: 0.15625rem;margin-top: 0.265625rem;margin-left: 0.15625rem;}
+ #mod-mine #header_top>div  img{width: 2.65625rem;height: 0.890625rem;}
+ #mod-mine #header_top span{font-size: 0.59375rem;color: #fff;display: inline-block;float: left;margin-left: 2.96875rem;margin-top: 0.59375rem;}
+ #mod-mine #header_top::after{content: "";display: block;clear: both;height: 0}
+
+#mod-mine #header #header_btm {height: 1.078125rem;background-color:#f3c800 ;display: flex;align-items:center;}
+#mod-mine #header  #header_btm p{width: 50%;height: 0.65625rem;display: flex;align-items:center;  }
+#mod-mine #header  #header_btm p:first-of-type{border-right: 2px solid #fff;}
+#mod-mine #header  #header_btm  p img{width: 0.640625rem;height: 0.5625rem;margin-left: 1.25rem;margin-right: 0.390625rem;}
+#mod-mine #header  #header_btm  p span{font-size: 0.359375rem;color: #fff;line-height: 0.65625rem;/* padding-right: 1.25rem; */}
+
+#mod-mine #order_form{height:3.796875rem;background-color: #fff;margin-bottom: 0.3125rem;}
+#mod-mine #order_form h2{padding-left: 0.484375rem;font-size: 0.40625rem;height: 1.5625rem;line-height: 1.5625rem;border-bottom: 2px solid #e0e0e0;}
+#mod-mine #order_form h2 span:first-of-type{margin-right: 4.390625rem;}
+#mod-mine #order_form h2 span:nth-of-type(2){color: #999999;}
+#mod-mine #order_form ul{height: 2.234375rem;display: flex;justify-content:space-around;align-items:center;}
+#mod-mine #order_form ul li{width: 1.825rem;text-align: center;}
+#mod-mine #order_form ul li p,#use ul li p ,#share ul li p{font-size: 0.34375rem;}
+#mod-mine #order_form ul li img{width: 0.5625rem;height: 0.578125rem;margin-bottom: 0.34375rem;}
+
+#mod-mine #use ul{height: 3.171875rem;display: flex;margin-bottom: 0.03125rem;justify-content:space-around;align-items:center;background-color: #fff;}
+#mod-mine #use ul li{width: 1.825rem;text-align: center;}
+#mod-mine #use ul li img{margin-bottom: 0.3125rem;width: 0.625rem;height: 0.75rem;}
+
+#mod-mine #share ul{height: 2.375rem;background-color: #fff;display: flex;justify-content:space-around;}
+#mod-mine #share ul li{width: 2.059375rem;text-align: center;height: 1.515625rem;margin-top: 0.859375rem;}
+#mod-mine #share ul li img{width: 0.84375rem;height: 0.734375rem;margin-bottom: 0.3125rem;}

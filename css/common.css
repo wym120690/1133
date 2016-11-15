@@ -1,0 +1,12 @@
+#footer ul{width: 100%;height: 1.546875rem;display: flex;align-items:center;justify-content:space-around;position: fixed;bottom:0;background-color: #efe9e4;}
+#footer ul li{width: 1.53125rem;height: 1.203125rem;display: flex;background-color: #efe9e4;}
+#footer ul li a {display: flex;flex-wrap:wrap;align-content:space-between;justify-content:center;}
+#footer ul li a img{width: 0.546875rem;height: 0.59375rem;}
+#footer ul li a p{width: 100%;text-align: center;font-size: 0.34375rem;margin-top: 0.15625rem;}
+
+#footer #number {position: absolute;width:0.578125rem;height: 0.59375rem;color: #fff;background-color: #f00;border-radius: 50%;left: 7.3125rem;bottom: 0.84375rem;line-height: 0.59375rem; font-size: 0.21875rem;padding-left: 0.203125rem;}
+@keyframes ss{
+	60%,80%{
+		transform:scale(1.5);
+	}
+}

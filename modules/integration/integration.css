@@ -1,0 +1,69 @@
+#mod-integration{width: 100%;height:15.75rem;overflow-y: auto;font-size:0.1875rem;background-color: #efefef;}
+#mod-integration #header h2{height: 1.421875rem;font-size: 0.40625rem;line-height:1.421875rem;background-color: #f9fafd;margin-bottom: 0.03125rem }
+#mod-integration #header h2 span:first-of-type{font-weight: normal;font-size: 0.609375rem;color: #9b9b9b;display: inline-block;margin-right: 2.96875rem;margin-left: 0.625rem;}
+ #mod-integration #header #usable_int {height: 4.984375rem;background-color: #fff;padding-top: 0.34375rem;padding-left: 2.859375rem;position: relative;}
+#mod-integration #header #usable_int .wrapper{width: 4.6875rem;height: 4.6875rem;position: absolute;clip: rect(0,4.6875rem,4.6875rem,2.34375rem);background: yellow;}
+#mod-integration #header #usable_int .circle{width:4.21875rem;height:4.21875rem;border: 0.578125rem solid #ef592a;border-radius: 50%;position: absolute;clip: rect(0,2.34375rem,4.6875rem,0);background: green;}
+/*动画部分*/
+div[data-anim~=base] {
+			  -webkit-animation-iteration-count: 1;  /* Only run once */
+			  -webkit-animation-fill-mode: forwards; /* Hold the last keyframe */
+			  -webkit-animation-timing-function:linear; /* Linear animation */
+			}
+			
+			.wrapper[data-anim~=wrapper] {
+			  -webkit-animation-duration: 0.01s; /* Complete keyframes asap */
+			  -webkit-animation-delay: 3s; /* Wait half of the animation */
+			  -webkit-animation-name: close-wrapper; /* Keyframes name */
+			}
+			
+			.circle[data-anim~=left] {
+			  -webkit-animation-duration: 6s; /* Full animation time */
+			  -webkit-animation-name: left-spin;
+			}
+			
+			.circle[data-anim~=right] {
+			  -webkit-animation-duration: 3s; /* Half animation time */
+			  -webkit-animation-name: right-spin;
+			}
+			/* Rotate the right side of the progress bar from 0 to 180 degrees */
+			@-webkit-keyframes right-spin {
+			  from {
+			    -webkit-transform: rotate(0deg);
+			  }
+			  to {
+			    -webkit-transform: rotate(180deg);
+			  }
+			}
+			/* Rotate the left side of the progress bar from 0 to 360 degrees */
+			@-webkit-keyframes left-spin {
+			  from {
+			    -webkit-transform: rotate(0deg);
+			  }
+			  to {
+			    -webkit-transform: rotate(360deg);
+			  }
+			}
+			/* Set the wrapper clip to auto, effectively removing the clip */
+			@-webkit-keyframes close-wrapper {
+			  to {
+			    clip: rect(auto, auto, auto, auto);
+			  }
+			}
+
+#mod-integration #header #usable_int .wrapper p:first-of-type{position: absolute;top:1.5625rem;left: 1.25rem;font-size: 0.375rem;color: #999999;}
+#mod-integration #header #usable_int .wrapper p:nth-of-type(2){position: absolute;top:1.875rem;left:1.875rem;font-size: 0.453125rem;color: #f00;} */
+#mod-integration #header ul{height: 2.125rem;width: 100%;clear: both;}
+#mod-integration #header ul li{width: 3.319375rem;height: 2.125rem;text-align: center;background-color: #fff;border-top: 2px solid #e0e0e0;border-right: 2px solid #e0e0e0;float: left;margin-bottom: 0.3125rem;}
+#mod-integration #header ul li:last-of-type{border-right: none;}
+#mod-integration #header ul li img{width: 0.75rem;height: 0.75rem;margin-top: 0.296875rem;margin-bottom: 0.328125rem}
+#mod-integration #header ul li p{font-size:0.34375rem;color: #999999 }
+#mod-integration #ticket ul{width: 100%;}
+#mod-integration #ticket ul li{width: 5.0rem;height: 4.671875rem;background-color: #fff;padding-top: 0.75rem;float: left;}
+#mod-integration #ticket ul li img{width: 3.03125rem;height: 1.65625rem;margin-left: 1.0rem;margin-bottom: 0.78125rem;}
+#mod-integration #ticket ul li p {font-size: 0.34375rem;margin-left: 0.3125rem;}
+#mod-integration #ticket ul li p:last-of-type{color: #f00;margin-top: 0.25rem;}
+#mod-integration #ticket ul li:nth-of-type(1),#mod-integration #ticket ul li:nth-of-type(3){
+	border-right: 2px solid #e0e0e0;}
+	#mod-integration #ticket ul li:nth-of-type(1),#mod-integration #ticket ul li:nth-of-type(2){
+	border-bottom: 2px solid #e0e0e0;}

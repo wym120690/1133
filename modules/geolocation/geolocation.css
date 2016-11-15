@@ -1,0 +1,9 @@
+body{width: 100%;background-color: #ffd82b;}
+
+body>img{width:6.03125rem;height: 3.03125rem;margin: 3.828125rem 0 1.125rem 1.984375rem; }
+body>div{width: 1.296875rem;height: 1.671875rem;margin-left: 4.359375rem}
+body>div>img{width: 1.140625rem;height: 1.140625rem;animation:ss 1s linear infinite forwards;}
+body>div>p{font-size: 0.40625rem;}
+@keyframes ss{
+	60%,80%{opacity: 0.2;}
+}
